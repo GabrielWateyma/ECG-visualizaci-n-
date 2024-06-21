@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
-url = "https://raw.githubusercontent.com/nicoavilan/Bases-de-datos/main/ECG.csv"
+url = "https://raw.githubusercontent.com/GabrielWateyma/ECG-visualizaci-n-/main/signal%2010.csv"
 df = pd.read_csv(url)
 df
 df = df.drop(labels=0, axis = 0)
